@@ -17,7 +17,6 @@ class FaceDetector():
                                                 minSize=minSize)
         return rects
 
-print("Got here")
 frontal_cascade_path="/home/krish/MPMC/project/haarCascadeTrained/haarcascade_frontalface_default.xml"
 fd = FaceDetector(frontal_cascade_path)
 
